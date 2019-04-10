@@ -1,0 +1,67 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	font-size: 12px;
+	font-family: “微软雅黑”;
+	background-color: #fff;
+	
+}
+a,a:visited{
+	color:#333;
+	text-decoration: none;
+}
+a:hover{
+	color:#cc0D24;
+	text-decoration: none;
+}
+.container{
+	width:1211px;
+	margin:0 auto;
+}
+.lf{
+	float:left;
+
+}
+.rf{
+	float:right;
+}
+li{
+	list-style-type:none; 
+}
+input,button{
+	outline:none;
+}
+i{
+	background-image:url(../images/iconlist_2.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+	vertical-align: middle;
+}
+b{
+	background-image:url(../images/ad-arraw.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+	vertical-align: middle;
+}
+
+.cleatfloat:after{
+	display: block;
+	clear:both;
+	content:'';
+}
+.search{
+	width:1211px;
+	margin:0 auto;
+}
+.content{
+	width:1211px;
+	height:413px;
+	margin:0 auto;
+}
+.main{
+	width:1211px;
+	height:1887px;
+	margin:0 auto;
+}
